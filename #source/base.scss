@@ -1,17 +1,39 @@
+body{
+	background-color: gray;
+}
+
 .content{
 	max-width: 1920px;
-	background-color: gray;
+	margin: 0 auto;
+	background-color: #fff;
 }
 
 .left-side-content-wrapper{
 	display: flex;
-	max-width: 1640px;
+	max-width: 100%;
 	justify-content: flex-end;
 	margin: 0 auto;
-	border: 1px solid;
 }
 
 .left-side-content{
-	width: 1343px;
-	background-color: red;
+	width: 1640px;
 }
+
+.decoration{
+	position: absolute;
+	width: 212px;
+	height: 153px;
+}
+
+.our-service{
+
+	position: relative;
+
+	& .decoration{
+		bottom: 0;
+		right: 0;
+		background: url('../img/bg/Group 55 (1).png');
+	}
+
+}
+
