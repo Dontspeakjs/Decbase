@@ -6,6 +6,14 @@ body{
 	max-width: 1920px;
 	margin: 0 auto;
 	background-color: #fff;
+	position: relative;
+
+	& .decoration{
+		bottom: 0;
+		right: 0;
+		background: url('../img/bg/Group 55 (1).png');
+	}
+
 }
 
 .left-side-content-wrapper{
@@ -23,17 +31,5 @@ body{
 	position: absolute;
 	width: 212px;
 	height: 153px;
-}
-
-.our-service{
-
-	position: relative;
-
-	& .decoration{
-		bottom: 0;
-		right: 0;
-		background: url('../img/bg/Group 55 (1).png');
-	}
-
 }
 

@@ -1,5 +1,7 @@
 .our-service{
-	min-height: 541px;	
+	max-width: 1394px;
+    min-height: 541px;
+    margin: 0 auto;
 }
 
 .services-wrap{
@@ -7,6 +9,7 @@
 	position: relative;
 	gap: 37px;
 	padding-top: 50px;
+
 }
 
 .service{

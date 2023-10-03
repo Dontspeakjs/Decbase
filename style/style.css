@@ -336,6 +336,12 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   background-color: #fff;
+  position: relative;
+}
+.content .decoration {
+  bottom: 0;
+  right: 0;
+  background: url("../img/bg/Group 55 (1).png");
 }
 
 .left-side-content-wrapper {
@@ -359,18 +365,6 @@ body {
   height: 153px;
 }
 
-.our-service {
-  position: relative;
-}
-.our-service .decoration {
-  bottom: 0;
-  right: 0;
-  background: url("../img/bg/Group 55 (1).png");
-}
-
-.title {
-  margin-top: 50px;
-}
 .title .title__small-heading {
   font-family: "Open Sans semi-bold";
   color: #646464;
@@ -383,7 +377,9 @@ body {
 }
 
 .our-service {
+  max-width: 1394px;
   min-height: 541px;
+  margin: 0 auto;
 }
 
 .services-wrap {
@@ -426,5 +422,29 @@ body {
   background-color: rgb(202, 168, 146);
 }
 .service--active * {
+  color: #fff;
+}
+
+.switch-bar {
+  text-align: end;
+  padding-right: 43px;
+}
+.switch-bar .left-switcher, .switch-bar .right-switcher {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-box-shadow: -1px 3px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: -1px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-left: 18px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial;
+  cursor: pointer;
+}
+.switch-bar .switcher--active {
+  background-color: rgb(55, 128, 107);
   color: #fff;
 }

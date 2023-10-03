@@ -1,0 +1,27 @@
+.switch-bar{
+
+	text-align: end;
+	padding-right: 43px;
+
+	& .left-switcher,
+	& .right-switcher{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		box-shadow: -1px 3px 10px 0px rgba(0, 0, 0, 0.3);
+		display: inline-block;
+		margin-left: 18px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Arial;
+		cursor: pointer;
+	}
+
+	& .switcher--active{
+		background-color: rgba(55, 128, 107, 1);
+		color: #fff;
+	}
+
+}	
