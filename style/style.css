@@ -30,9 +30,8 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
 
 /* Grouping content
@@ -312,6 +311,23 @@ template {
 }
 
 .content {
-  max-width: 1343px;
+  max-width: 1920px;
+  background-color: gray;
+}
+
+.left-side-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1640px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin: 0 auto;
+  border: 1px solid;
+}
+
+.left-side-content {
+  width: 1343px;
+  background-color: red;
 }

@@ -1,4 +1,17 @@
 .content{
-	max-width: 1343px;
+	max-width: 1920px;
+	background-color: gray;
+}
+
+.left-side-content-wrapper{
+	display: flex;
+	max-width: 1640px;
+	justify-content: flex-end;
 	margin: 0 auto;
+	border: 1px solid;
+}
+
+.left-side-content{
+	width: 1343px;
+	background-color: red;
 }
