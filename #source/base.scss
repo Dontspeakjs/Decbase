@@ -2,11 +2,16 @@ body{
 	background-color: gray;
 }
 
+html{
+	font-size: 15px;
+}
+
 .content{
 	max-width: 1920px;
 	margin: 0 auto;
 	background-color: #fff;
 	position: relative;
+	padding: 0 30px;
 
 	& .decoration{
 		bottom: 0;
@@ -33,3 +38,51 @@ body{
 	height: 153px;
 }
 
+@media (max-width: 1200px) {
+
+	html{
+		font-size: 13px;
+	}
+
+	.content{
+		max-width: 1200px;
+	    padding: 0 25px;
+	}
+
+	.decoration{
+	    width: 161px;
+   	 	height: 107px;
+	}
+
+	.left-side-content-wrapper{
+	    justify-content: center;
+	}
+
+	.left-side-content{
+		width: 100%;
+	}
+}
+
+@media (max-width: 992px) {
+	html{
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 768px) {
+	.decoration{
+		display: none;
+	}
+	.left-side-content{
+		padding: 1rem 2.5rem;
+	}
+}
+
+@media (max-width: 576px) {
+	
+	.content{
+	    padding: 0 12px;
+	}
+
+
+}

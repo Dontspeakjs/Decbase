@@ -25,3 +25,15 @@
 	}
 
 }	
+
+@media (max-width: 1200px) {
+	.switch-bar{
+	   padding-right: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.switch-bar{
+	   display: none;
+	}
+}

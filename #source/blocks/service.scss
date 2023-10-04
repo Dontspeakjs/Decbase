@@ -7,7 +7,7 @@
 .services-wrap{
 	display: flex;
 	position: relative;
-	gap: 37px;
+	gap: 1.6rem;
 	padding-top: 50px;
 
 }
@@ -15,10 +15,8 @@
 .service{
 
 	display: flex;
-	width: 425px;
-	height: 193px;
 	border-radius: 60px 0px 60px 0px;
-	padding: 40px 20px 35px 40px;
+	padding: 2.67rem 1.33rem 2.34rem 2.67rem;
 	box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
 
 	& .service__img{
@@ -32,12 +30,12 @@
 
 	& .service__title{
 		font-family: "Open Sans bold";
-		font-size: 24px;
+		font-size: 1.6rem;
 	}
 
 	& .service__text{
 		font-family: "Open Sans regular";
-		font-size: 18px;
+		font-size: 1.2rem;
 	}
 
 }
@@ -48,6 +46,73 @@
 
 	& *{
 		color: #fff;
+	}
+
+}
+
+@media (max-width: 1200px) {
+
+	.our-service{
+	    max-width: 1200px;
+   		min-height: 506px;
+   		padding: 1rem 0;
+	}
+
+	.service-wrap{
+	    gap: 21px;
+	}
+
+	.service__title{
+		font-size: 22px;
+	}
+
+	.service__text{
+		font-size: 16px;
+	}
+
+	.service__img img{
+		width: 1.9rem !important;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	.services-wrap{
+	    gap: 1.9rem;
+	    flex-direction: column;
+	    align-items: center;
+	    padding-top: 32px;
+	}
+
+	.service{
+	    border-radius: 34px;
+	    width: 100%;
+	}
+
+	.service__img img{
+		width: 3rem !important;
+		margin-right: 34px;
+	}
+
+}
+
+@media (max-width: 576px) {
+	
+	.content{
+	    padding: 0 12px;
+	}
+
+	.service{
+	    padding: 1.67rem 1rem 1rem 2rem;
+	}
+
+	.services-wrap{
+		padding-top: 23px;
+	}
+
+	.service__img{
+		margin-right: 0px;
 	}
 
 }
